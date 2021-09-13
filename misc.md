@@ -48,7 +48,7 @@ id  |                name                |                                      
    9 | Omnis iusto                        | Fugit nesciunt et nihil molestias deleniti fugiat aliquam tempora. Sint hic deserunt non. Perspiciatis ex temporibus non facere. Nihil qui nam ab iure est voluptates inventore sint. Libero consequatur qui voluptates aut.                                                                                                                                        |      120 |   1 |       9
   10 | Incidunt eos voluptatum            | Adipisci et beatae repellendus ut unde consectetur vitae dolores. Nulla voluptatem laborum delectus. Ullam voluptatem ipsum ut sint ex dolorum. Aut eligendi id ut ut. Consectetur ut sunt enim sit. Ad sed amet sunt vel laborum.                                                                                                                                  |       45 |   1 |      10
   11 | Aliquam tempora                    | Quas a libero odit molestias iure voluptas aperiam vero qui. Accusantium provident neque quo in voluptatibus. Et omnis ut consectetur veniam tenetur quo maxime consequuntur. Odit reiciendis dolorem aut voluptatem non.                                                         
-
+...
 
 assignment_submissions TABLE:
   id   | assignment_id | student_id | duration | submission_date 
@@ -75,4 +75,4 @@ assignment_submissions TABLE:
     20 |             5 |          3 |       15 | 2018-02-12
     21 |             6 |          3 |       45 | 2018-02-12
     22 |             1 |          4 |       90 | 2018-02-12
-    ...
+...
