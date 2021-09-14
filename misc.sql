@@ -1,1 +1,1 @@
-SELECT * FROM assistance_requests;
+SELECT * FROM teachers;
