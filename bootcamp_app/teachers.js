@@ -15,9 +15,9 @@ FROM teachers
 JOIN assistance_requests ON teachers.id = assistance_requests.teacher_id
 JOIN students ON students.id = assistance_requests.student_id
 JOIN cohorts ON students.cohort_id = cohorts.id
-WHERE cohorts.name LIKE '%${userInput[0]}%'
+WHERE cohorts.name LIKE $1
 ORDER BY teacher;
-`)
+`, [`%${userInput[0]}%`])
 .then(res => {
   console.log(res.rows);
 })
